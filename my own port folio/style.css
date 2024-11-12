@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Denk+One);
+*{
+    padding: 10;
+    margin: 0;
+}
+.heading h1{
+        font-size: 72px;
+        background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+}
+.heading{
+    font-family: 'Denk One', sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    background-color: black;
+    borderim
+    border: 5px solid transparent; 
+            border-image: linear-gradient(to right, green, rgb(144, 216, 238)); 
+            border-image-slice: 1; 
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.myimg{
+    padding: 2rem;
+    height: 15rem;
+    border-radius: 50px;
+}
+.details{
+    padding: 1rem;
+    font-size: xx-large;
+}
+.upperMiddle{
+    background-color: antiquewhite;
+}
+.languages{
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnimg{
+    height: 20px;
+    width: 20px;
+    border-radius: 5rem;
+
+}
+.button div{
+    padding: 2rem;
+}
+.languages{
+    background-color:  rgb(211,236,11);
+    background: linear-gradient(90deg, rgba(211,236,11,1) 26%, rgba(0,212,255,1) 77%);;
+    border: 5px solid black;
+}
+.languages:hover{
+    cursor: pointer;
+    border-color: violet;
+}
+.footer{
+    
+    width: 100%;
+    background-color: black;
+}
+
+.footer h4{
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
